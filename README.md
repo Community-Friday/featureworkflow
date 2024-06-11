@@ -6,5 +6,5 @@
 3. Solve the given problem
 4. Stage your changes. E.g., `git add scripts.js`
 5. Commit your changes with a meaningful, concise commit message. E.g., `git commit -m 'message'`
-6. Push your changes to the remote repository. E.g., `git push`
+6. Push your changes to the remote repository. E.g., `git push --set-upstream origin yourname`
 7. On GitHub, create a pull request from your branch to main with a detailed description 
