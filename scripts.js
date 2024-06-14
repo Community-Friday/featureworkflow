@@ -1,6 +1,8 @@
 // Add your code to add 2 numbers together
 function addNumbers(a, b) {
-
+const sum = a + b;
+return sum;
+ 
 }
 
 console.log(addNumbers(10, 20)); // Expected output: 30
