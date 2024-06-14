@@ -11,7 +11,11 @@ function twoSum(nums, target) {
 
   for (let i = 0; i < nums.length; i++) {
     const complement = target - nums[i];
+    return [seen[complement], i];
   }
+    seen[nums[i]] = i;
+
+    return [];
 }
 
 const result = twoSum(nums, target);
