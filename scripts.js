@@ -1,13 +1,14 @@
-<<<<<<< HEAD
 
+ 
+const nums = [2, 7, 11, 15];
+const target = 9;
 /**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
  */
  
-const nums = [2, 7, 11, 15];
-const target = 9;
+
 
 var twoSum = function(nums, target) {
     const numMap = {};
@@ -24,12 +25,9 @@ var twoSum = function(nums, target) {
   };
   
 
-
-=======
 // Add your code to add 2 numbers together
 function addNumbers(a, b) {
   return a + b +2;
 }
 
 console.log(addNumbers(10, 20)); // Expected output: 30
->>>>>>> d38838c7c5a8a5d59cd0375ff5a2d00876351f2b
